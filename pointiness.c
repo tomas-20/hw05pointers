@@ -23,7 +23,7 @@ int main() {
   char *spain = &n;
   printf("the value of our intt pointer is %p where %d resides\n", al_andalus, *al_andalus);
   printf("the value of our char pointer is %p where %c resides\n", spain, *spain);
-  printf("the value of our unsigned int is %u which is %x in hexidecimal\n", n, n);
+  printf("the value of our unsigned int is %x which is %u in decimal\n", n, n);
   for (int i = 0; i < 4; i ++) {
     printf("the value of our unsigned int's number %d bite is %hhu\n", i, *(spain + i));
   }
