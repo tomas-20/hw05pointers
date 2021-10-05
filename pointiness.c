@@ -27,5 +27,9 @@ int main() {
   for (int i = 0; i < 4; i ++) {
     printf("the value of our unsigned int's number %d bite is %hhu\n", i, *(spain + i));
   }
+  for (int i = 0; i < 4; i ++) {
+    (*(spain + i)) ++;
+    printf("the value of our unsigned int is now %x which is %u in decimal\n", n, n);
+  }
   return 0;
 }
