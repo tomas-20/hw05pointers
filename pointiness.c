@@ -9,5 +9,8 @@ int main() {
   char *kanto = &charizard;
   int *tawantinsuyu = &inti;
   long *china = &long_er;
+  printf("the value of our char's pointer's value is %p\n", kanto);
+  printf("the value of our intt's pointer's value is %p\n", tawantinsuyu);
+  printf("the value of our long's pointer's value is %p\n", china);
   return 0;
 }
