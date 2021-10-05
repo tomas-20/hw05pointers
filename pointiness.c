@@ -6,5 +6,8 @@ int main() {
   printf("our char's address is %p which is %lu in decimal\n", &charizard, &charizard);
   printf("our intt's address is %p which is %lu in decimal\n", &inti, &inti);
   printf("our long's address is %p which is %lu in decimal\n", &long_er, &long_er);
+  char *kanto = &charizard;
+  int *tawantinsuyu = &inti;
+  long *china = &long_er;
   return 0;
 }
