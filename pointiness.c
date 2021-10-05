@@ -18,5 +18,8 @@ int main() {
   printf("the new value of the char is %c\n", charizard);
   printf("the new value of the intt is %d\n", inti);
   printf("the new value of the long is %ld\n", long_er);
+  unsigned int n = 126;
+  int *al_andalus = &n;
+  char *spain = &n;
   return 0;
 }
