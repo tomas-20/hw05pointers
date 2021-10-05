@@ -21,5 +21,7 @@ int main() {
   unsigned int n = 126;
   int *al_andalus = &n;
   char *spain = &n;
+  printf("the value of the intt pointer is %p where %d resides\n", al_andalus, *al_andalus);
+  printf("the value of the char pointer is %p where %c resides\n", spain, *spain);
   return 0;
 }
