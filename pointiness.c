@@ -12,5 +12,11 @@ int main() {
   printf("the value of our char's pointer's value is %p\n", kanto);
   printf("the value of our intt's pointer's value is %p\n", tawantinsuyu);
   printf("the value of our long's pointer's value is %p\n", china);
+  *kanto = 'E';
+  *tawantinsuyu = 54;
+  *china = 24601;
+  printf("the new value of the char is %c\n", charizard);
+  printf("the new value of the intt is %d\n", inti);
+  printf("the new value of the long is %ld\n", long_er);
   return 0;
 }
