@@ -31,5 +31,9 @@ int main() {
     (*(spain + i)) ++;
     printf("the value of our unsigned int is now %x which is %u in decimal\n", n, n);
   }
+  for (int i = 0; i < 4; i ++) {
+    *(spain + i) += 16;
+    printf("the value of our unsigned int is now %x which is %u in decimal\n", n, n);
+  }
   return 0;
 }
