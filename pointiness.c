@@ -15,13 +15,13 @@ int main() {
   *kanto = 'E';
   *tawantinsuyu = 54;
   *china = 24601;
-  printf("the new value of the char is %c\n", charizard);
-  printf("the new value of the intt is %d\n", inti);
-  printf("the new value of the long is %ld\n", long_er);
+  printf("the new value of our char is %c\n", charizard);
+  printf("the new value of our intt is %d\n", inti);
+  printf("the new value of our long is %ld\n", long_er);
   unsigned int n = 126;
   int *al_andalus = &n;
   char *spain = &n;
-  printf("the value of the intt pointer is %p where %d resides\n", al_andalus, *al_andalus);
-  printf("the value of the char pointer is %p where %c resides\n", spain, *spain);
+  printf("the value of our intt pointer is %p where %d resides\n", al_andalus, *al_andalus);
+  printf("the value of our char pointer is %p where %c resides\n", spain, *spain);
   return 0;
 }
