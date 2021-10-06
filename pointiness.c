@@ -25,7 +25,7 @@ int main() {
   printf("the value of our char pointer is %p where %c resides\n", spain, *spain);
   printf("the value of our unsigned int is %x which is %u in decimal\n", n, n);
   for (int i = 0; i < 4; i ++) {
-    printf("the value of our unsigned int's number %d bite is %hhu\n", i, *(spain + i));
+    printf("the value of our unsigned int's number %d byte is %hhu\n", i, *(spain + i));
   }
   for (int i = 0; i < 4; i ++) {
     (*(spain + i)) ++;
